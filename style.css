@@ -1,0 +1,63 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: solid 2px rgb(126, 192, 223);
+    border: solid 2px rgb(241, 138, 241);
+}
+.game-gone{
+    display: none;
+}
+.card{
+    display:all;
+}
+.slot{
+    width:98px;
+    height: 98px;
+    border: 1px solid #fff;
+    background: black;
+}
+.player-one{
+    background-image: url('./images/X.jpg');
+    border: 1px solid #fff;
+    background-size: cover;
+    width: 98px;
+    height: 98px;
+}
+.player-two{
+    background-image: url('./images/O.jpg');
+    border: 1px solid #fff;
+    background-size: cover;
+    width: 98px;
+    height: 98px;
+}
+.intro{
+    display:grid;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.intro-gone{
+    display: none;
+}
+body{
+    background: linear-gradient(to right, rgb(255, 0, 191) , rgb(0, 255, 255));
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    background: linear-gradient(to right, rgb(255, 0, 191) , rgb(0, 255, 255));
+    padding: 10px 20px;
+    color: #fff
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(295, 0, 231) , rgb(0, 305, 305));
+    margin: 3px;
+}
+h1{
+    color: white;
+}
